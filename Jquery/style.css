@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.display {
+    width: 370px;
+
+}
+
+.dis {
+
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+
+}
+
+input {
+    width: 370px;
+}
+
+#input {
+    text-align: end;
+    font-size: 24px;
+
+}
+
+#output {
+    text-align: end;
+    font-size: 20px;
+}
+
+
+.line-1 {
+    padding: 30px 0px;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 272px;
+}
+
+.line-2 {
+    padding: 30px 0px;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 272px;
+}
+
+.line-3 {
+    padding: 30px 0px;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 272px;
+}
+
+.line-4 {
+    padding: 30px 0px;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 272px;
+}
+
+.line-5 {
+    padding: 20px 0px;
+    background-color: silver;
+    text-align: center;
+    position: relative;
+    left: 273px;
+    bottom: 355px;
+    width: 97px;
+    height: 356px;
+}
+
+.line-5 div {
+    margin: 29px 0px 27px 0px;
+    padding: 4px;
+}
+
+span {
+    padding: 40px;
+    font-size: 25px;
+}
+
+
+.delf {
+    padding-left: 30px;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assessment </title>
+</head>
+
+<body>
+    <!-- first create div tag and add class, class name is container. -->
+    <div class="container">
+
+        
+        <h1 class="heading">contact us</h1>
+
+        <!-- create second div tag and add class, class name is address -->
+        <div class="addressbox">
+
+            <div class="ad-details">
+
+                <p class="ad-title">Address :</p>
+                <p class="ad-area">Saint Marco Street, 6th floor, Tokyo, Japan, 123456.</p>
+
+            </div>
+              
+             <!-- create contact option  -->
+            <div class="ad-contact">
+
+                <div class="tele">
+                    <img src="img/telep-icon.png" width="23px" alt="">
+                    <p class="txtred"> +91 1234567890</p>
+                </div>
+
+                <div class="eml">
+                    <img src="img/email-server-png-3.png" width="30px" alt="">
+                    <p class="txtblue">example@gmail.com </p>
+                </div>
+
+            </div>
+                <!-- create location icon  -->
+            <div class="locoicon">
+                <img src="img/loco-icon.png" alt="" width="50px">
+            </div>
+
+        </div>
+
+
+              <!-- create a submit form and embed map with location  -->
+        <div class="maping">
+            <div class="submitbox">
+
+                <form action="https://careercenter.tops-int.com/" method="post">
+                    <input type="text" pattern="[A-Za-z]{3,6}" placeholder="Name :" name="name" id="name">
+
+                    <input type="text" pattern="[A-Za-z]{3,6}" placeholder="Company :" required> <br>
+
+                    <input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" name="email" id="email"
+                        placeholder="Email :" required>
+
+                    <input type="tel" min="0" max="10" placeholder="Mobile :" required> <br>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message :"></textarea> <br>
+
+                    <input type="submit" value="Send" class="subbtn">
+                </form>
+                
+            </div>
+
+
+            <div class="srcmap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.72360443897!2d72.60635807505155!3d22.99718911727551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c2fc005927%3A0x918e69150ca1c935!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1690021009973!5m2!1sen!2sin"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+
+                    <!-- create social media icons -->
+
+                <img src="img/icons.png" alt="" width="40px" class="icon-1">
+                <img src="img/ticon.png" alt="" width="32px" class="icon-2">
+                <img src="img/inicon.png" alt="" width="36px" class="icon-3">
+                <img src="" alt="">
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
